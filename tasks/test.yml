@@ -7,7 +7,7 @@
 - name: Install docker-py
   pip: name={{ item }}
   with_items:
-   - docker-py
+   - docker
 
 - name: Run hello-world image
   docker:
