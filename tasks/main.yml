@@ -3,4 +3,3 @@
 - include: start.yml
 - include: docker-compose.yml
 - include: docker-machine.yml
-- include: test.yml
