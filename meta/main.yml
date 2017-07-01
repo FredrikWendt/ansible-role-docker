@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  author: "Several Humans"
+  license: Apache
+  min_ansible_version: 1.4
+  platforms:
+   - name: GenericLinux
+     versions:
+     - all
+  categories:
+   - development
+dependencies: []
