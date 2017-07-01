@@ -1,9 +1,6 @@
 ---
-- include: prereqs.yml
 - include: docker.yml
-- include: config.yml
 - include: start.yml
-- include: docker-users.yml
 - include: docker-compose.yml
 - include: docker-machine.yml
 - include: test.yml

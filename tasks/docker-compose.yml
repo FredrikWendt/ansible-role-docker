@@ -7,11 +7,6 @@
 - name: Apply executable permissions to docker-compose
   file: path=/usr/local/bin/docker-compose state=file mode=0755
 
-- name: Install bash-completion
-  yum: name={{ item }}
-  with_items:
-   - bash-completion
-
 - name: Install Docker Compose bash_completion
   shell: curl -L https://raw.githubusercontent.com/docker/compose/{{ docker_compose_version }}/contrib/completion/bash/docker-compose > /etc/bash_completion.d/docker-compose
   args:
