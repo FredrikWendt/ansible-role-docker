@@ -1,6 +1,6 @@
 ---
 - name: Install Docker Machine
-  shell: curl -L https://github.com/docker/machine/releases/download/{{ docker_machine_version }}/docker-machine_Linux-x86_64 > /usr/local/bin/docker-machine
+  shell: curl -L https://github.com/docker/machine/releases/download/{{ docker_machine_version }}/docker-machine-Linux-x86_64 > /usr/local/bin/docker-machine
   args:
     creates: /usr/local/bin/docker-machine
 
